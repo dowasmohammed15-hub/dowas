@@ -7,3 +7,12 @@ body {
 background: rgb(255, 255, 255);
 color:rgb(170, 4, 4)
 }
+a{
+    color:brown;
+}
+a:hover{
+    color:blue
+}
+a:visited{
+    color:green
+}

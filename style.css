@@ -1,12 +1,5 @@
-img {
-    width: 450px;
-}
-body {
-    text-align: center;
-    font-family: 'Franklin Gothic large';
-background: rgb(255, 255, 255);
-color:rgb(170, 4, 4)
-}
+
+
 a{
     color:brown;
 }
@@ -15,4 +8,117 @@ a:hover{
 }
 a:visited{
     color:green
+}
+.card {
+    position: relative;
+    text-align: center;
+    
+}
+img{
+    width: 230px;
+
+}
+
+body{
+    background-image:url(photo_5902382077120810314_y.jpg) ;
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu-btn {
+    background-color: rgb(122, 0, 0);
+    font-family:'Exo 2', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 60px;
+    
+
+}
+.sidebar {
+    background-color: rgb(122, 0, 0);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+   border-right: 2px snow;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.sidebar a:hover {
+    background-color: rgb(75, 0, 0);
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(122, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Exo 2' , sans-serif;
+    font-weight: bold;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(255, 4, 4);
+}
+.news-card {
+    background-color: #1a1a2e;
+    border-left: 4px solid #a80000;
+        border-right: 4px solid #a80000;
+
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.news-card h3 {
+    color: #ffffff;
+    margin-bottom: 22px;
+    font-size: 30px;
+    font-family: 'Oebitron', sans-serif;
+
+
+}
+.news-date {
+    color: #888;
+    font-size: 16px;
+}
+.news-card p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #aaaaaa;
+    font-family: 'Roboto' , sans-serif;
+}
+.news-section h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: #e10600;
 }

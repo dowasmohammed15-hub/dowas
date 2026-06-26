@@ -1,7 +1,22 @@
+
+.navbar {
+    width: 100%;
+    background-color: rgb(122, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Exo 2' , sans-serif;
+    font-weight: bold;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 body {
     font-family: 'Exo 2' , sans-serif;
-   text-align: center;
-    background-color: rgb(122, 0, 0);
+   
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
 .ferrari{

@@ -1,26 +1,53 @@
 
 .navbar {
-    width: 100%;
-    background-color: rgb(122, 0, 0);
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Exo 2' , sans-serif;
-    font-weight: bold;
-    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    font-family: 'Exo 2', sans-serif;
+    background: rgb(122, 0, 0);
+    padding: 18px 40px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    border-bottom: 1px solid #3d0a0a;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-links a.active {
+    color: white;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 4px;
+}
+.nav-links a:hover {
+    color:white;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.logo span {
+    color: #e8e8e8;
 }
 body {
     font-family: 'Exo 2' , sans-serif;
    
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(73, 0, 0);
     color: rgb(255, 255, 255);
-}
-.ferrari{
-    margin: auto;
-    margin-right: 10000px;
-    
 }

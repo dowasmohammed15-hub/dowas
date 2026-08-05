@@ -127,3 +127,6 @@ news-img {
     display: block;
     margin: 0 auto;
 }
+.copyright {
+    font-size: 50px ; 
+}
